@@ -1,4 +1,3 @@
-#add comments
 #Read in and format data - approximate where to start so don't have to read whole file
 my_data <- read.table('household_power_consumption.txt', sep = ';', na.strings = '?', header = TRUE, skip = 63630, 
                       nrows = 50000)
